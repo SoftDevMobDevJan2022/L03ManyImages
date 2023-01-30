@@ -35,7 +35,8 @@
         app:layout_constraintBottom_toTopOf="@id/source"
         app:layout_constraintEnd_toStartOf="@+id/theatre"
         app:layout_constraintStart_toEndOf="@id/station"
-        app:layout_constraintTop_toBottomOf="@id/imageView" />
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        android:onClick="onClickCollege"/>
 
     <Button
         android:id="@+id/theatre"
