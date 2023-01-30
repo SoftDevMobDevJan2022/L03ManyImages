@@ -13,10 +13,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(
-           R.layout.activity_main    // linear layout
-           // R.layout.new_layout     // constraint layout
-        )
+        // linear layout
+        setContentView(R.layout.activity_main)
 
         val image = findViewById<ImageView>(R.id.imageView)
 
