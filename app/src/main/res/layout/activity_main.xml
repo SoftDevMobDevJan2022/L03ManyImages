@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Station" />
+            android:text="@string/station" />
 
         <Button
             android:id="@+id/college"
@@ -32,7 +32,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="onClickCollege"
-            android:text="College" />
+            android:text="@string/college" />
 
         <Button
             android:id="@+id/theatre"

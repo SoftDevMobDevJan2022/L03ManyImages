@@ -15,13 +15,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(
-            R.layout.activity_main // linear layout
-            // R.layout.new_layout         // constraint layout
+            //R.layout.activity_main // linear layout
+            R.layout.new_layout         // constraint layout
         )
 
         val image = findViewById<ImageView>(R.id.imageView)
 
+        // step 1: get the button component
         val station = findViewById<Button>(R.id.station)
+        // step 2: register the button to handle the on-click event
         /* 1st approach (easiest): in-line definition of event handler on the object */
         station.setOnClickListener {
             image.setImageDrawable(getDrawable(R.drawable.station))
